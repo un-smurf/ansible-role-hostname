@@ -28,7 +28,7 @@ None.
 Inside `vars/main.yml`:
 
 
-hostname_hostname: 'server1.example.com'
+	hostname_hostname: "server1.example.com"
 
 
 ## License
