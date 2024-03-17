@@ -14,6 +14,18 @@ No special requirements
 
 None.
 
+## Install
+
+	ansible-galaxy role install git+https://github.com/un-smurf/ansible-role-hostname,main,un-smurf.hostname
+
+## Role Variables
+
+Available variables are listed below, along with default values (see `defaults/main.yml`):
+
+	hostname_hostname: "server1.example.com"
+
+Set the hostname to a FQDN
+
 ## Example Playbook
 
     - hosts: servers
