@@ -16,10 +16,20 @@ None.
 
 ## Example Playbook
 
-    - hosts: servers
+```    - hosts: servers
+	
+	vars_files:
+    - vars/main.yml
+	
       roles:
         - un-smurf.hostname
+```
 
+Inside vars/main.yml:
+
+```
+hostname_hostname: 'server1.example.com'
+```
 
 ## License
 
