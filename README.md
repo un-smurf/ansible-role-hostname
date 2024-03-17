@@ -31,7 +31,7 @@ Set the hostname to a FQDN
     - hosts: servers
 	
 	vars_files:
-    - vars/main.yml
+		vars/main.yml
 	
       roles:
         - un-smurf.hostname
